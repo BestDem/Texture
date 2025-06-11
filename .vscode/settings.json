@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "TexturBlender.sln"
+    "dotnet.defaultSolution": "Texture.sln"
 }
