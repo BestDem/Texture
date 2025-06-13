@@ -7,6 +7,7 @@ using UnityEngine.Playables;
 public class TimeLineActivate : MonoBehaviour
 {
     private PlayableDirector timeLine;
+    
     void Start()
     {
         timeLine = GetComponent<PlayableDirector>();
@@ -14,7 +15,7 @@ public class TimeLineActivate : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Alpha1))
             timeLine.Play();
     }
 }
