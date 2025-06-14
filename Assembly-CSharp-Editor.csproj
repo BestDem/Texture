@@ -63,14 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Ramps\Editor\RampAssetEditor.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Editor\SplatMapGenerator.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Editor\PlaceOnTerrain.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\2DTools\Editor\TTTools2D.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Editor\ClearWaterLevel.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Editor\TerrainTools.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Editor\RandomObjectMap.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Editor\IncrementalSplatmapping.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1099,12 +1092,10 @@
     <ProjectReference Include="UnityEditor.UI.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj" />
     <ProjectReference Include="UnityEngine.UI.csproj" />
-    <ProjectReference Include="sc.vegetationspawner.runtime.csproj" />
     <ProjectReference Include="Unity.ShaderGraph.Editor.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj" />
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj" />
-    <ProjectReference Include="sc.vegetationspawner.editor.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
